@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Celebrity</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="go_to_celebrities">Go To Celebrities</string>
+    <string name="add_celebrity">Add Celebrity</string>
+    <string name="please_enter_first_name">Please Enter First Name</string>
+    <string name="please_enter_last_name">Please Enter Last Name</string>
+    <string name="go_to_main_activity">Go to Main Activity</string>
+    <string name="insert_name_into_db">Insert Name Into DB</string>
+</resources>
