@@ -119,7 +119,7 @@ public class CelebDatabaseHelper extends SQLiteOpenHelper {
 
     public void deleteCeleb(String firstToDelete){
         SQLiteDatabase database = this.getWritableDatabase();
-        database.delete(TABLE_NAME, COL_FIRST_NAME + " = ?", new String[]{firstToDelete});
+        database.delete(TABLE_NAME, "_id = ?", new String[]{Celebs.getPrimaryKey()});
 
     }
 
