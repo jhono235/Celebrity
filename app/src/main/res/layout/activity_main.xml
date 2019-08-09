@@ -47,4 +47,18 @@
         app:layout_constraintTop_toBottomOf="@+id/btnViewAllCelebs"
         android:onClick="onClick"/>
 
+    <Button
+        android:id="@+id/btnViewFavs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:onClick="onClick"
+        android:text="@string/view_favs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddCeleb" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

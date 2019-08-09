@@ -28,6 +28,8 @@
             app:srcCompat="@android:drawable/btn_star_big_on"
             android:layout_alignRight="@+id/tvFirstName"/>
 
+
+
         <ImageButton
             android:id="@+id/ibDelete"
             android:layout_width="wrap_content"

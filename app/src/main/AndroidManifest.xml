@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListAll"></activity>
-        <activity android:name=".AddCeleb" />
+        <activity android:name=".EditCeleb"
+            android:label="Edit Celeb"></activity>
+        <activity android:name=".ListAllFavorites"
+            android:label="Favorites"/>
+        <activity android:name=".ListAll"
+            android:label="List All Celebs"/>
+        <activity android:name=".AddCeleb"
+            android:label="Add Celeb"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

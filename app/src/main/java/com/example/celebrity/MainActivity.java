@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btnViewAllCelebs:
                 startActivity(new Intent(this, ListAll.class));
             break;
+            case R.id.btnViewFavs:
+                startActivity(new Intent(this, ListAllFavorites.class));
         }
     }
 }

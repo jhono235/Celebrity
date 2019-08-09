@@ -7,4 +7,7 @@
     <string name="please_enter_last_name">Please Enter Last Name</string>
     <string name="go_to_main_activity">Go to Main Activity</string>
     <string name="insert_name_into_db">Insert Name Into DB</string>
+    <string name="view_favs">View Favs</string>
+    <string name="update">Update</string>
+    <string name="go_to_list">Go to List</string>
 </resources>

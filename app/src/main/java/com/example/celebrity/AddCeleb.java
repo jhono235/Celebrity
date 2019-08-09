@@ -27,7 +27,7 @@ public class AddCeleb extends AppCompatActivity {
                 final String lastName = etLastName.getText().toString();
 
                 if (!(firstName.isEmpty()) || lastName.isEmpty()){
-                    Celebs celebToInsert = new Celebs(firstName, lastName);
+                    Celebs celebToInsert = new Celebs(firstName, lastName, false);
                     CelebDatabaseHelper dbHelper = new CelebDatabaseHelper(this);
                     dbHelper.insertCelebIntoDatabase(celebToInsert);
 
